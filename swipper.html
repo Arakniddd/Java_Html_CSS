@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>SWIPPER</title>
+</head>
+<body>
+  <header>
+    <h1>MoninFC</h1>
+  </header>
+    <nav id="nav">
+      
+      <ul>
+        <li>
+          <a href="accueil.html">ACCUEIL</a>
+        </li>
+        <li>
+          <a href="equipe.html">ÉQUIPE</a>
+        </li>
+        <li>
+          <a href="formulaire.html">FORMULAIRE</a>
+          <li>
+            <a href="swipper.html">SWIPPER</a>
+          </li>
+        </li>
+        <li>
+          <button onclick="darkmode()">cliquer pour mettre en sombre</button>
+        </li>
+      </ul>
+      <div id="icons"></div>
+    </nav>
+</head>
+
+<body>
+
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    loop="true">
+    <swiper-slide><img src="image/MbappeT.png" alt=""></swiper-slide>
+    <swiper-slide><img src="image/Belligol.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="image/Messi.jpeg" alt=""></swiper-slide>
+    <swiper-slide>Slide 4</swiper-slide>
+    <swiper-slide>Slide 5</swiper-slide>
+    <swiper-slide>Slide 6</swiper-slide>
+    <swiper-slide>Slide 7</swiper-slide>
+    <swiper-slide>Slide 8</swiper-slide>
+    <swiper-slide>Slide 9</swiper-slide>
+  </swiper-container>
+  <footer>
+    <p>MoninFC numéro: 06 06 06 06 06</p>
+  </footer>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+
+</html>
